@@ -23,6 +23,9 @@
   .footer {
     text-align: center;
   }
+  
+  .footer-list {
+    padding: 20px;
 
   .btn {
     width: 100%;
@@ -57,7 +60,7 @@
   box-sizing: border-box;
 }
 
-contents-item {
-  height: 2220px;
+.contents-item {
+  line-height: 2220px;
   text-align: center;
 }
