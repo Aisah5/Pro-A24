@@ -1,73 +1,52 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
   .top-wrapper h1 {
-    font-size: 32px;
+      font-size: 32px;
+      text-align: center;
   }
-
-  .heading h2 {
+  .section-title{
     font-size: 20px;
   }
-}
+
+  .contents {
+    width: 50%;
+   margin-bottom: 50px;
+   text-align: center;
+  }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-
-  .footer {
-    text-align: center;
-  }
-  
-  .footer-list {
-    padding: 10px;
-
-  .btn {
-    width: 100%;
-  }
-
-  .top-wrapper {
-    text-align: center;
-  }
-
-    /* Tambahkan CSS untuk header-right */
-  .header-list {
+  .nav ul {
     display: none;
   }
-  
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display: block;
   }
-    
+  .search-btn {
+    width: 50%;
+  }
+  .search-area{
+    width: 150%;
+  }
   .top-wrapper {
-    text-align : center;
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
+   text-align: center;
+   width: 100%
+ }
 
-* {
-  box-sizing: border-box;
-}
+ .top-wrapper h1 {
+   font-size: 24px;
+   line-height: 36px;
+ }
 
-.contents-item {
-  line-height: 2220px;
+ .top-wrapper p {
+   font-size: 14px;
+   line-height: 20px;
+ }
+
+ .contents{
+   width: 100%
+ }
+footer {
   text-align: center;
+  width: 100%
 }
-
-  .extra-dua {
-    padding: 20px;
-  }
