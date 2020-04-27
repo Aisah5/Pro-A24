@@ -20,7 +20,7 @@
     width: 100%;
   }
 
-  footer {
+  .footer {
     text-align: center;
   }
 
@@ -28,16 +28,12 @@
     width: 100%;
   }
 
-  .facebook {
-    margin-bottom: 10px;
-  }
-
   .top-wrapper {
-    text-align: left;
+    text-align: center;
   }
 
     /* Tambahkan CSS untuk header-right */
-  .header-right {
+  .header-list {
     display: none;
   }
   
@@ -59,4 +55,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+contents-item {
+  height: 2220px;
+  text-align: center;
 }
