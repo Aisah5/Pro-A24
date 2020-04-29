@@ -17,6 +17,10 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .header {
+    height: auto;
+  }
+  
   .header-logo {
     text-align: center;
   }
@@ -28,26 +32,26 @@
     display: none;
   }
   .menu-icon {
-    display:inline-block;
+    display:inline;
   }
   .search-btn {
     width: 50%;
   }
   .search-area{
-    width: 100%;
+    width: 50%;
   }
   .top-wrapper {
    text-align: center;
    width: 100%;
  }
 
- .top-wrapper h1 {
+ .container h1 {
    font-size: 24px;
    line-height: 36px;
    text-align: left;
  }
 
- .top-wrapper p {
+ .container p {
    font-size: 14px;
    line-height: 20px;
    text-align: left;
