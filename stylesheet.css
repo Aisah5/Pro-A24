@@ -110,7 +110,6 @@ a {
   box-shadow: 0px 21px 53px rgba(46,46,46,0.66);
 }
 
-
 .header {
   height: 60px;
   width: 100%;
@@ -132,8 +131,7 @@ a {
 .header-logo {
   float: left;
   color: #08596A;
-  margin-left: 23px;
-  padding: 15px 38px;
+  padding: 15px;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -174,11 +172,10 @@ a {
   font-family: 'Fredericka the Great', cursive;
 }
 
-.lesson-wrapper {
+.wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
   text-align: center;
 }
 .contents {
