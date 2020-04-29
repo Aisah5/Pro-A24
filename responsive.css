@@ -16,21 +16,22 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .
   .nav ul {
     display: none;
   }
   .menu-icon {
-    display: block;
+    display:inline-block;
   }
   .search-btn {
     width: 50%;
   }
   .search-area{
-    width: 150%;
+    width: 100%;
   }
   .top-wrapper {
    text-align: center;
-   width: 100%
+   width: 100%;
  }
 
  .top-wrapper h1 {
@@ -44,7 +45,8 @@
  }
 
  .contents{
-   width: 100%
+   width: 50%;
+   margin-bottom: 50px;
  }
 footer {
   text-align: center;
