@@ -45,8 +45,9 @@
  }
 
  .contents{
-   width: 50%;
+   width: 100%;
    margin-bottom: 50px;
+   text-align: center;
  }
 footer {
   text-align: center;
