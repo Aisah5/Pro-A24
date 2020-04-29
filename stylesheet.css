@@ -111,21 +111,31 @@ a {
 }
 
 
-header {
+.header {
   height: 60px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #26d0c9;
+  color: #08596A;
   position :fixed;
   top: 0;
   z-index: 10;
 }
-.logo{
+
+.header-list li {
+  margin-right: 23px;
+  float: right;
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.header-logo {
   float: left;
   color: #08596A;
-  margin-left: 46px;
-  padding: 0px 38px;
+  margin-left: 23px;
+  padding: 15px 38px;
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 .logo a{
@@ -173,15 +183,16 @@ header {
 }
 .contents {
   border: 5px solid #dee7ec;
-  height: 650px;
+  height: 700px;
   padding-top: 10px;
   margin: 50px;
   text-align: center;
 }
 
 .section-title {
-  padding-top: 20px;
-  padding-bottom: 50px;
+  font-family: sans-serif;
+  padding-top: 5px;
+  padding-bottom: 30px;
   color: black;
   border-bottom: 2px solid black;
   font-size: 28px;
@@ -201,15 +212,6 @@ header {
   font-size: 15px;
   text-align: center;
   margin-top: 10px;
-}
-
-.heading {
-  padding-top: 5px;
-  color: #5f5d60;
-  border-radius: 5px;
-  font-weight: normal;
-  padding-top: 20px;
-  padding-right: 15px;
 }
 
 .snd {
@@ -248,7 +250,7 @@ header {
 }
 
 .extra-dua h2,h3 {
-  font-family: 'Noto Serif JP';
+  font-family: 'Comic Sans MS';
   color: white;
 }
 .extra-tiga {
@@ -267,12 +269,12 @@ header {
 }
 
 .footer-logo {
-  float: left;
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 30px;
   padding-right: 20px;
   padding-left: 20px;
+  text-align: center;
 }
 
 .footer-list li {
