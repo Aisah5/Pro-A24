@@ -16,7 +16,13 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .
+  .header {
+    text-align: center;
+  }
+
+  .header li {
+    display: none;
+  }
   .nav ul {
     display: none;
   }
