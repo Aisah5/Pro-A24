@@ -19,13 +19,11 @@ a {
 }
 
 .clear {
-  clear: left;
+  clear: center;
 }
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .top-wrapper {
@@ -180,14 +178,14 @@ a {
 }
 .contents {
   border: 2px solid black;
-  height: 500px;
+  height: 600px;
   padding-top: 5px;
   margin: 90px;
 }
 
 .section-title {
   font-family: sans-serif;
-  padding-top: 5px;
+  padding-top: 30px;
   padding-bottom: 30px;
   color: black;
   font-size: 28px;
