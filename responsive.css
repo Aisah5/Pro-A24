@@ -9,7 +9,9 @@
   }
 
   .contents {
+    border: environment;
     width: 50%;
+    height: 1170px;
    margin-bottom: 50px;
    text-align: center;
   }
@@ -43,11 +45,13 @@
  .top-wrapper h1 {
    font-size: 24px;
    line-height: 36px;
+   text-align: center;
  }
 
  .top-wrapper p {
    font-size: 14px;
    line-height: 20px;
+   text-align: center;
  }
 
  .contents{
