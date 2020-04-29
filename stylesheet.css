@@ -179,7 +179,6 @@ a {
   text-align: center;
 }
 .contents {
-  border: 5px solid #dee7ec;
   height: 700px;
   padding-top: 10px;
   margin: 50px;
@@ -212,7 +211,7 @@ a {
 }
 
 .snd {
-  padding: 1px 24px;
+  padding: 1px 25px;
   color: white;
   display: inline-block;
   opacity: 0.9;
