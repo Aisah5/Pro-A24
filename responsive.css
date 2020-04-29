@@ -18,6 +18,15 @@
 @media all and (max-width: 670px) {
   .lesson {
     width: 100%;
+}
+
+  .flex-list {
+    flex-direction: column;
+  }
+
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .flex-list li {
+    margin: 0 auto;
   }
 
   footer {
@@ -28,9 +37,6 @@
     width: 100%;
   }
 
-  .facebook {
-    margin-bottom: 10px;
-  }
 
   .top-wrapper {
     text-align: left;
