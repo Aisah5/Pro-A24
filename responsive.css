@@ -16,11 +16,11 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .header {
+  .header-logo {
     text-align: center;
   }
 
-  .header li {
+  .header-list li {
     display: none;
   }
   .nav ul {
