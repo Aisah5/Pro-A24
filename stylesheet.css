@@ -179,7 +179,8 @@ a {
   text-align: center;
 }
 .contents {
-  height: 900px;
+  background: #08596A;
+  height: 1900px;
   padding-top: 10px;
   margin: 50px;
   text-align: center;
