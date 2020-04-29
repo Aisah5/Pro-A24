@@ -9,7 +9,6 @@
   }
 
   .contents {
-    border: environment;
     width: 50%;
     height: 1170px;
    margin-bottom: 50px;
@@ -45,18 +44,18 @@
  .top-wrapper h1 {
    font-size: 24px;
    line-height: 36px;
-   text-align: center;
+   text-align: left;
  }
 
  .top-wrapper p {
    font-size: 14px;
    line-height: 20px;
-   text-align: center;
+   text-align: left;
  }
 
  .contents{
    width: 100%;
-   margin-bottom: 50px;
+   margin-bottom: 100px;
    text-align: center;
  }
 footer {
