@@ -179,7 +179,7 @@ a {
   text-align: center;
 }
 .contents {
-  height: 700px;
+  height: 900px;
   padding-top: 10px;
   margin: 50px;
   text-align: center;
@@ -225,6 +225,7 @@ a {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+
 }
 .message {
   padding: 15px 50px;
@@ -242,25 +243,16 @@ a {
 .extra-dua {
   text-align: center;
   background: #08596A;
-  padding: 50px;
+  padding: 30px;
 }
 
 .extra-dua h2,h3 {
   font-family: 'Comic Sans MS';
   color: white;
 }
-.extra-tiga {
-  text-align: center;
-  background: #08596A;
-  padding: 50px;
-}
-.extra-dua h1 {
-  font-family: 'Noto Serif JP';
-  color: white;
-}
+
 .footer {
   background-color: #26d0c9;
-  color: #08596A;
   height: 120px;
 }
 
